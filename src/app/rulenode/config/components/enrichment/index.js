@@ -15,8 +15,8 @@
  */
 
 
-import GetSumIntoMetadataConfigDirective from './get-sum-into-metadata-config.directive';
+import tbEnrichmentNodeGetEntityIdConfig from './get-entity-id-config.directive';
 
 export default angular.module('thingsboard.ruleChain.config.enrichment', [])
-    .directive('tbEnrichmentNodeSumIntoMetadataConfig', GetSumIntoMetadataConfigDirective)
+    .directive('tbEnrichmentNodeGetEntityIdConfig', tbEnrichmentNodeGetEntityIdConfig)
     .name;

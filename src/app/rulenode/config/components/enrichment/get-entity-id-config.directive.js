@@ -13,18 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
-/* eslint-disable import/no-unresolved, import/default */
-
-import getSumConfigTemplate from './get-sum-config.tpl.html';
-
-/* eslint-enable import/no-unresolved, import/default */
+import getSumIntoMetadataConfigTemplate from './get-entity-id-config.tpl.html';
 
 /*@ngInject*/
-export default function GetSumConfigDirective($compile) {
+export default function GetEntityIdConfigDirective($compile) {
 
     var linker = function (scope, element, attrs, ngModelCtrl) {
-        var template = getSumConfigTemplate;
+        var template = getSumIntoMetadataConfigTemplate;
         element.html(template);
 
 
